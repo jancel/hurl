@@ -1,0 +1,9 @@
+
+development:
+  host: localhost:3000
+
+test:
+  host: localhost:3000
+  
+production:
+  host: hurl.me

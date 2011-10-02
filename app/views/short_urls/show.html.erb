@@ -1,0 +1,4 @@
+
+<% url = "#{host}/#{@short_url.url_hash}" %>
+<%= link_to url, url, :target => "_blank" %>
+<%= link_to @short_url.long_url, url, :target => "_blank" %>
