@@ -2,3 +2,4 @@
 
 This is the base application that we use at hurl.me to create web redirection.
 
+To get up and running fast, use a Mac, set up RVM, cd into directory, accept warnings, and then bunmdle. Rename the *.examples to remove the .example.
