@@ -1,5 +1,19 @@
-=Hurlme.com Short URL Web Application
+= Hurlme.com Short URL Web Application
 
 This is the base application that we use at hurl.me to create web redirection.
 
 To get up and running fast, use a Mac, set up RVM, cd into directory, accept warnings, and then bunmdle. Rename the *.examples to remove the .example.
+
+Right now, it's set up to use RVM, Ruby 1.9.2.  
+
+rvm install 1.9.2
+rvm gemset create hurl_me
+
+brew install git
+
+git clone git@github.com:jancel/hurl.git
+cd hurl # accept warnings for .rvmrc
+
+bundle install
+
+
