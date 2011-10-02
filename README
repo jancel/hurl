@@ -16,4 +16,4 @@ cd hurl # accept warnings for .rvmrc
 
 bundle install
 
-
+To develop, we are using guard, to start guard, just execute the guard command.
