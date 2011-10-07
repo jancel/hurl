@@ -57,20 +57,12 @@ HurlMe::Application.routes.draw do
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id(.:format)))'
-  # match ':id', 
-  #   :controller => 'forward', 
-  #   :action => 'stats', 
-  #   :requirements => { :hash => /[\w_]{5,20}\s$/  },
-  #   :as => "stats"
-  # match ':id', 
-  #   :controller => 'forward', 
-  #   :action => 'safe', 
-  #   :requirements => { :id => /[\w_]{5,20}-$/  },
-  #   :as => "safe"
+  
+  
   match ':id', 
     :controller => 'forward', 
     :action => 'redirectiones', 
-    :requirements => { :id => /[\w_]{5,20}$/  },
+    :constraints => { :id => /[\w_]{5,20}([-\s\+])?/  },
     :as => "forward"
   
 end

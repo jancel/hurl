@@ -205,7 +205,7 @@ DEPENDENCIES
   jquery-rails
   launchy
   livereload
-  rails (= 3.1.0)
+  rails (~> 3.1.0)
   rb-fsevent
   rspec-rails
   ruby-debug19
